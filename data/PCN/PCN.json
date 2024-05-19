@@ -2,6 +2,9 @@
     {
         "taxonomy_id": "04530566",
         "taxonomy_name": "watercraft",
+        "test": [
+            "e431f79ac9f0266bca677733d59db4df"
+        ],    
         "train": [
             "1356fcf0ea4a95bcbe7ca2216dc1576a",
             "147fd27a40793d7e9bbe4f1047e9e5fd",
@@ -103,6 +106,9 @@
             "f8b80289dbba94bdb7002bddf0942f8e",
             "f91e712b124915514b6c44ccda750d2e",
             "fc71778c7daf92e49786591d9b03a096"
-        ]
+        ],
+        "val": [
+            "f226832ef907984fd8d4a0e4fc199475"
+        ]        
     }
 ]
