@@ -154,7 +154,7 @@
             "8cc8499cdf11e9fc1735ea0e092a805a",
             "fe02f6594ed8b96ae85a3dc26b76b2ae"
         ],
-        "val": [
+        "train": [
             "67b0ef08720310aa14f846b7e32e76c4",
             "8937a2d361775c68aafd61baec633e88",
             "b4b15a84b9067f94a75d03186a0409e2",
@@ -2224,7 +2224,7 @@
             "366b8a4c8e38961597910e2efc6028df",
             "6efc48bb9267c2ab4c6deb9ede0648df"
         ],
-        "train": [
+        "val": [
             "79af7fbe587692a583768a4ac1607d73",
             "ec449d7c89e84657cf66a9e192dbe265",
             "71b7341f69f50e35e86c35c1c8efea2c",
