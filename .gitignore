@@ -132,10 +132,10 @@ dmypy.json
 *.pth
 *.weights
 *.pt
-*.npy
+# *.npy
 
 experiments/
-data/ShapeNet55-34/shapenet_pc
+# data/ShapeNet55-34/shapenet_pc
 data/ShapeNet55-34/clean*
 data/KITTI/cars
 data/KITTI/bboxes
