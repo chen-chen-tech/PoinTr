@@ -106,6 +106,14 @@ cfgs/PCN_models/AdaPoinTr.yaml ckpts/AdaPoinTr_PCN.pth \
 --out_pc_root inference_result/ \
 ```
 
+```
+!python tools/inference.py \
+./cfgs/PCN_models/AdaPoinTr.yaml \
+experiments/AdaPoinTr/PCN_models/tooth-25-jun-18-01/ckpt-best.pth \
+--pc_root demo/ --save_vis_img \
+--out_pc_root inference01/
+```
+
 ### Evaluation
 
 To evaluate a pre-trained PoinTr model on the Three Dataset with single GPU, run:
@@ -196,6 +204,20 @@ Train a PoinTr model with a single GPU:
 bash ./scripts/train.sh 0 \
     --config ./cfgs/KITTI_models/PoinTr.yaml \
     --exp_name example
+```
+
+```
+!bash ./scripts/train.sh 0 \
+    --config ./cfgs/PCN_models/AdaPoinTr.yaml \ 
+    --ckpts ./ckpts/AdaPoinTr1_PCN.pth \
+    --exp_name tooth-25-jun-18-01
+```
+
+```
+!bash ./scripts/train.sh 0 \
+--config ./cfgs/Projected_ShapeNet34_models/AdaPoinTr.yaml \
+--ckpts ./ckpts/AdaPoinTr_ShapeNet34.pth \
+--exp_name tooth-25-jun-30-01
 ```
 
 We also provide the Pytorch implementation of several baseline models including GRNet, PCN, TopNet and FoldingNet. For example, to train a GRNet model on ShapeNet-55, run:
